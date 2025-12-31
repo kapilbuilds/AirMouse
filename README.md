@@ -1,15 +1,10 @@
-# Air Mouse Project
+Air Mouse Project
 
-This project allows controlling a PC cursor using a smartphone's motion sensors.
+This project allows controlling the PC mouse using a smartphone’s motion sensors.
+The mobile app sends motion data to Firebase, and a Python script reads it to move the cursor in real time.
 
-## Tech Used
-- Android (Kotlin)
-- Firebase Realtime Database
-- Python (PyAutoGUI)
+Note:
+Firebase service account key is not included for security reasons.
+To run the project locally, generate your own key and place it next to receiver.py.
 
-## How it works
-The Android app sends sensor data to Firebase.
-The Python script reads the data and moves the mouse accordingly.
-
-## Note
-Firebase credentials are not included for security reasons.
+A demo video is included for reference.
